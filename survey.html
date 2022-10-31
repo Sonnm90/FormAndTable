@@ -12,6 +12,10 @@
             text-align: center;
         }
 
+        label {
+            font-weight: bold;
+        }
+
         .R {
             width: 100px;
             text-align: center;
@@ -29,30 +33,30 @@
             <option value="above 18">Above 18</option>
             <option value="24-30">24-30</option>
             <option value="under 30">Under 30</option>
-        </select><br>
+        </select><br><br>
         <label for="income">What is your yearly income range?</label><br>
         <select name="income" id="income">
             <option value="$0-$25,000">$0-$25,000</option>
             <option value="$25,0000-$50,000">$25,000-$50,000</option>
             <option value="$50,0000-$100,000">$50,000-$100,000</option>
             <option value="Under $100,000">Under $100,000</option>
-        </select><br>
+        </select><br><br>
         <label for="Gender">Gender identify</label><br>
         <input type="radio" name="gender" value="male"> Male <br>
         <input type="radio" name="gender" value="Female"> Female <br>
         <input type="radio" name="gender" value="Nonbinary"> Nonbinary <br>
         <input type="radio" name="gender" value="Other"> Other <br>
-        <input type="text" name="gender"><br>
+        <input type="text" name="gender"><br><br>
         <label for="product">Which of the following products have your purchase in the last two month. Please check all
             that apply.</label><br>
         <input type="checkbox" name="product" value="product 1"> Product 1 <br>
         <input type="checkbox" name="product" value="product 2"> Product 2 <br>
-        <input type="checkbox" name="product" value="product 3"> Product 3 <br>
+        <input type="checkbox" name="product" value="product 3"> Product 3 <br><br>
         <label for="time">How often would you use our new product?</label><br>
         <input type="radio" name="time" value="daily"> Daily <br>
         <input type="radio" name="time" value="weekly"> Weekly <br>
-        <input type="radio" name="time" value="monthly"> Monthly <br>
-        <label for="cost">What would you pay for the new product?</label><br>
+        <input type="radio" name="time" value="monthly"> Monthly <br><br>
+        <label for="cost">What would you pay for the new product?</label>
         <table class="cost">
             <tr>
                 <td>$</td>
@@ -71,7 +75,7 @@
                 <td>Cents</td>
             </tr><br>
 
-        </table>
+        </table><br>
         <label for="youridea">What features would you like to see in the new product.</label><br>
         <textarea name="" id="" cols="100" rows="10"></textarea><br>
         <p>Please rate your level of agreement with your following statements.</p><br>
