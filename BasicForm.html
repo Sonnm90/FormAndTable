@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 50%;
+            margin: auto;
+        }
+
+        label {
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        input,
+        select,
+        textarea {
+            margin-top: 20px;
+        }
+
+        legend {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Đăng ký:</legend>
+            <label for="Fullname">Fullname:</label>
+            <input type="text" name="Fullname"><br>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" value="Male">
+            <label for="Male">Nam</label>
+            <input type="radio" name="Gender" value="Female">
+            <label for="Female">Nữ</label><br>
+            <label for="birthday">Ngày sinh:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+            <label for="Address">Địa chỉ:</label>
+            <input type="text" name="Address" size="35"><br>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" size="35"><br>
+            <label for="educate">Trình độ:</label>
+            <select name="educate">
+                <option value="THPT">THPT</option>
+                <option value="Cao đẳng">Cao đẳng</option>
+                <option value="Đại học">Đại học</option>
+            </select><br>
+            <label for="note">Chú thích:</label>
+            <textarea name="note" id=""></textarea><br>
+            <label for="favorite">Sở thích:</label>
+            <input type="checkbox" name="favorite" value="Xemphim">
+            <label>Xem phim</label>
+            <input type="checkbox" name="favorite" value="Nghenhac">
+            <label>Nghe nhạc</label><br>
+            <label for="myavt">Ảnh chân dung:</label>
+            <input type="file" name="myavt  "><br>
+            <label for="phone">SĐT:</label>
+            <input type="tell" id="phone" name="phone" placeholder="+84 987-654-321"
+                pattern="+84 [0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
